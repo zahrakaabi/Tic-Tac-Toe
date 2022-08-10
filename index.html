@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--local css files-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Tic Tac Toe</title>
+    <!--Scripts-->
+    <script src="./js/script.js" defer></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js" defer></script>
+</head>
+<body>
+    <h1 class="who_is_player text-center"><span id="player"></span> is playing</h1>
+    <div class="container grid pos-center w-100">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <!-- X is the winner-->
+    <div class="x-winner items-center justify-center flex-columns">
+        <div class="relaod-page flex items-center justify-center flex-columns">
+            <i class='bx bx-sync'></i>
+            <span>Start again</span>
+        </div>
+        <h1>X is the winner !</h1>
+        <h2>Congratulations</h2>
+    </div>
+    <!-- O is the winner-->
+    <div class="o-winner items-center justify-center flex-columns">
+        <div class="relaod-page flex items-center justify-center flex-columns">
+            <i class='bx bx-sync'></i>
+            <span>Start again</span>
+        </div>
+        <h1>O is the winner !</h1>
+        <h2>Congratulations</h2>
+    </div>
+    <!-- NO is the winner-->
+    <div class="no-winner items-center justify-center flex-columns">
+        <div class="relaod-page flex items-center justify-center flex-columns">
+            <i class='bx bx-sync'></i>
+            <span>Start again</span>
+        </div>
+        <h1>draw! NONE is winning !</h1>
+    </div>
+</body>
+</html>
